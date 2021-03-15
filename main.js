@@ -12,10 +12,12 @@ function backword(title) {
 console.log(backword("smartacademy"))
 
 
+
 var number = "123456789"
     
 for (let i = 0 ; i < number.length; i++) {
-     console.log(number[i] ** number[i])            
+     console.log(parseInt(number[i]) ** parseInt(number[i])) 
+           
 }  
 
          
@@ -23,12 +25,11 @@ for (let i = 0 ; i < number.length; i++) {
     for (let index = 0; index < number.length; index++)
     { 
       for (let i = 1; i < q + 1 ; i++){
-        console.log(number[index] ** i) 
+        console.log(parseInt(number[index]) ** i) 
      }     
     }           
  }
  sqr("2345", 4)
-                   
       
    
       
