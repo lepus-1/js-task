@@ -1,0 +1,26 @@
+/* 
+ul li{
+  padding: 10px;
+  border-bottom: 1px solid #404c5d;
+} */
+
+ul{
+  display: inline-block;
+  
+} 
+.box {
+  width: 50%;
+margin: 20px;
+}
+
+.label{
+  margin-bottom: 10px;
+}
+.title {
+  font-size: 15px;
+  margin-left:10px;
+  margin-bottom: 20px;
+
+
+
+}
