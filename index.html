@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="./reset.css">
+  <title>Document</title>
+</head>
+<body>
+
+<section>
+    <div class="container">
+          <div>
+          <div class="box">
+          <label for="product" class="label">შეიყვანეთ პროდუქტი</label> 
+          <input type="text" class="form-control" id="product" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          </div>  
+          <div class="box">
+          <label for="product" class="label">შეიყვანეთ ფასი</label> 
+          <input type="number" class="form-control" id="price" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+          </div>
+          <div class="box">
+            <button id="add-todo" class="btn btn-danger">კალათაში დამატება</button>
+        <button id="result" class="btn btn-danger">გადასახადი თანხა</button>
+          </div>
+      </div>
+      <div class="box">
+        
+        <ul id="todo-list">    
+        </ul>
+      </div>
+      <div  class="box" id="sumbox">
+      </div>
+    </div>
+  </section> 
+  <script src="./main.js"></script>
+</body>
+</html>
