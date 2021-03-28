@@ -12,11 +12,19 @@ var renderAllItem = () => {
   todoList.innerHTML = ''
   todos.forEach(function (todo) {
     var li = document.createElement('li')
-    li.innerText = ` ${todo.product}  ${todo.price}`
+    var div1 = document.createElement('div')
+    var div2 = document.createElement('div')
+    div1.innerText = todo.product
+    div2.innerText = todo.price
+
+    li.appendChild(div1)
+    li.appendChild(div2)
+    li.classList.add('object')
+    div1.classList.add('prod')
+    
+    // li.innerText = ` ${todo.product}  ${todo.price}`
     todoList.appendChild(li)
-    li.style.borderBottom = "1px solid #222343"
-    li.style.padding = "20px 50px"
-    li.style.backgroundColor = "#dfe8e1"    
+      
   })
   product.value = ''
   price.value = ''
