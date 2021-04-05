@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: azure;
+  margin: 0;
+  padding: 0;
+}
+ 
+.box {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+}
+.container {
+  width: 20%;
+ 
+}
+button {
+  width: 50px;
+  height: 50px;
+  margin: 12px;
+}
+.output {
+  width: 90%;
+  height: 50px;
+  background-color: black;
+  color: wheat;
+  margin-left: 10px;
+  margin-top: 10px;
+  
+}
